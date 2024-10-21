@@ -1,12 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'http://localhost:8080/api', // Adjust this to your backend URL
-    headers: {
-        'Content-Type': 'application/json',
-    },
+    baseURL: '/api'  // 這裡使用相對路徑，Vite 會處理代理
 })
-
-// Add any interceptors or other configuration here
 
 export default api

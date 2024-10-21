@@ -10,7 +10,8 @@
 
 <script>
 import { getMovies } from '@/services/movieService'
-
+import TestComponent from '@/components/TestComponent.vue'
+import DiscountList from '@/components/DiscountList.vue'
 export default {
   name: 'CityMovieList',
   data() {
