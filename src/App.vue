@@ -9,8 +9,7 @@
 <script>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
-import TestComponent from "@/components/TestComponent.vue";
-
+import TestComponent from './components/TestComponent.vue'
 export default {
   name: 'App',
   components: {

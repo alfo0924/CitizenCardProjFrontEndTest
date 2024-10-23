@@ -2,13 +2,14 @@
   "name": "citizencardprojfrontendtest",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
@@ -27,8 +28,8 @@
     "vite": "^4.4.6"
   },
   "engines": {
-    "node": ">=14.16.0 <20",
-    "npm": ">=6.0.0"
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
   },
   "homepage": "https://alfo0924.github.io/CitizenCardProjFrontEndTest/"
 }
